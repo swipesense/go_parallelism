@@ -4,10 +4,17 @@ This repo is a contrived example of how io-heavy code can be optimized in go.
 
 ## Setup
 
-This requires that both go and node are installed. Node is used to run our test server.
+If you're on OSX and just want to run the examples, all you need are the dependencies for server.js:
 
 ```
-yarn install # Install package.json node dependencies.
+yarn install
+```
+
+If you want to recompile the go source code for another os or develop off of these examples, you'll need to use `dep` to
+install the go dependencies:
+
+```
+dep ensure
 ```
 
 ## Running Examples
